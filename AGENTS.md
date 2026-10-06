@@ -20,6 +20,10 @@ There is no test framework or test suite yet. Add tests with new behavior and bu
 
 Keep each change focused so it is easy to review. Before considering work complete, inspect the Git diff and summarize which files changed and why. Once the project has build and test commands, run the relevant checks and report their results; do not claim checks passed unless they were run.
 
+### Reviewing in VS Code
+
+Open the **Source Control** view to see files changed since the last commit. Select a file to compare the working version with the committed version in the diff editor; added lines appear in green and removed lines in red. Review the diff before staging or committing changes.
+
 ## Commits and Pull Requests
 
 Git history has no commits yet, so no commit-message convention can be inferred. Write concise imperative commit subjects (for example, `Add project scaffold`). Pull requests should explain the change, mention relevant issues, and include screenshots for user-visible UI changes. Call out tests run and any known gaps.
